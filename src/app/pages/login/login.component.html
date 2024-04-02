@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="target">
+        <div class="text-white title">Iniciar sesion</div>
+        <div class="mb-3">
+            <label class="form-label text-white">Usuario</label>
+            <input [(ngModel)]="username" type="text" class="form-control" placeholder="">
+        </div>
+        <div class="mb-3">
+            <label class="form-label text-white">Contraseña</label>
+            <input [(ngModel)]="password" type="password" class="form-control" placeholder="">
+        </div>
+
+        <button class="btn btn-success" (click)="sigIn()">Iniciar sesion</button>
+        <div class="register" (click)="signUp()">Registrarse</div>
+    </div>
+</div>

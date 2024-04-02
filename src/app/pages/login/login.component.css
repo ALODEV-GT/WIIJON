@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.target {
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    background-color: #212D40;
+    border: 1px solid #fff;
+    padding: 2rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.register {
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+}

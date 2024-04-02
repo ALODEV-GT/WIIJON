@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="target">
+        <div class="text-white title">Crear cuenta</div>
+        <div class="mb-3">
+            <label class="form-label text-white">Usuario</label>
+            <input [(ngModel)]="username" type="text" class="form-control" placeholder="">
+        </div>
+        <div class="mb-3">
+            <label class="form-label text-white">Contraseña</label>
+            <input [(ngModel)]="password" type="password" class="form-control" placeholder="">
+        </div>
+        <div class="mb-3">
+            <label class="form-label text-white">Confirmar contraseña</label>
+            <input [(ngModel)]="passwordConfirm" type="password" class="form-control" placeholder="">
+        </div>
+
+        <button class="btn btn-success" (click)="signUp()">Registrarse</button>
+        <div class="register" (click)="signIn()">Ya tengo una cuenta</div>
+    </div>
+</div>
